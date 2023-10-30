@@ -12,19 +12,29 @@
     width: 1200px;
     margin: 0 auto;
     display: flex;
+   /*  border-right: 1px black dashed; */
 }
-
+/* .main-container>*{
+    flex-direction:column;
+    margin-top: 20px;
+} */
 
 /* header */
    
-    
+ header{
+    margin-top: 20px;
+ }   
    
-    header section>:first-child{
+header section>:first-child{
         justify-content: space-between;
-      
+        
+         
     }
 
 /* main */
+main{
+    width: 100%;
+}
 
 /* footer*/
 
@@ -39,7 +49,7 @@
     background-color: pink;
 }
 .yellow{
-    background-color: yellow;
+    background-color: #daa520;
 }
 /* colori sfondi */
 .headerbotton{
