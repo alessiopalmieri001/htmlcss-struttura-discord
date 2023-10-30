@@ -1,0 +1,51 @@
+/* reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* font */
+
+/* general */
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+}
+
+
+/* header */
+   
+    
+   
+    header section>:first-child{
+        justify-content: space-between;
+      
+    }
+
+/* main */
+
+/* footer*/
+
+/* debug */
+.debug {
+   
+    border : 1px dashed black;
+    min-height:200px;
+}
+/* colori celle */
+.pink{
+    background-color: pink;
+}
+.yellow{
+    background-color: yellow;
+}
+/* colori sfondi */
+.headerbotton{
+    background-color: #00008b;
+}
+.headertop{
+    background-color: #add8e6;
+    ;
+} 
