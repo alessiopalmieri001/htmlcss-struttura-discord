@@ -21,6 +21,9 @@
     display: flex;
     flex-wrap: wrap;
 }
+.grey-background{
+    background-color: grey;
+}
 
 /* header */
 .logologin{
@@ -49,6 +52,15 @@ text-align: center;
 
 
 /* main */
+.colonna-70{
+    width: 70%;
+}
+.colonna-30{
+    width: 30%;
+}
+.dimensionamento{
+    padding: 40px 0;
+}
 
 
 /* footer*/
@@ -79,3 +91,20 @@ text-align: center;
 
 
 }
+.debug main section .riga .colonna-70{
+    background-color: #1E90FF;
+    border: 1px dashed black;
+    min-height: 400px;
+}
+.debug main section .riga .colonna-30{
+    background-color:pink;
+    border: 1px dashed black;
+    min-height: 400px;
+}
+.debug main section .big-green{
+    background-color:green;
+    border: 1px dashed black;
+    min-height: 400px;
+}
+
+
