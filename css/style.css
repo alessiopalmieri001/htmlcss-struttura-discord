@@ -9,27 +9,19 @@
 
 /* general */
 .container{
-    width: 1200px;
+    max-width:1200px;
     margin: 0 auto;
-    display: flex;
-   /*  border-right: 1px black dashed; */
 }
-/* .main-container>*{
-    flex-direction:column;
-    margin-top: 20px;
-} */
+.riga{
+    display: flex;
+    flex-wrap: wrap;
+}
+
 
 /* header */
    
- header{
-    margin-top: 20px;
- }   
-   
-header section>:first-child{
-        justify-content: space-between;
-        
-         
-    }
+
+
 
 /* main */
 main{
@@ -40,22 +32,28 @@ main{
 
 /* debug */
 .debug {
-   
-    border : 1px dashed black;
-    min-height:200px;
+   min-height:200px;
 }
 /* colori celle */
 .pink{
     background-color: pink;
+    min-width: 100px;
+    margin: 20px;
+    
 }
 .yellow{
     background-color: #daa520;
+    justify-content: space-between;
+    display: flex;
 }
 /* colori sfondi */
-.headerbotton{
+.headerbottom{
     background-color: #00008b;
 }
 .headertop{
     background-color: #add8e6;
     ;
 } 
+.border{
+    border: 1px dashed black;
+}
