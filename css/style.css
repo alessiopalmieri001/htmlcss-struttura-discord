@@ -9,51 +9,73 @@
 
 /* general */
 .container{
-    max-width:1200px;
+    max-width:1000px;
     margin: 0 auto;
 }
+.container-small{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
 .riga{
     display: flex;
     flex-wrap: wrap;
 }
 
-
 /* header */
-   
-
+.logologin{
+    width: 25%;
+}
+.link{
+    width: 50%;
+}  
+.headertop .header-1-container > *{
+   padding: 10px;
+    
+}
+.headertop .header-1-container > .login-contenuto{
+    text-align: right;
+     
+ }
+ .headertop .header-1-container > .nav-bar{
+text-align: center;
+}
+.headertop .header-1-container > .nav-bar ul li {
+    display: inline-block;
+}
+.headerbottom{
+    padding:50px 0;
+}
 
 
 /* main */
-main{
-    width: 100%;
-}
+
 
 /* footer*/
 
 /* debug */
-.debug {
-   min-height:200px;
-}
-/* colori celle */
-.pink{
-    background-color: pink;
-    min-width: 100px;
-    margin: 20px;
-    
-}
-.yellow{
-    background-color: #daa520;
-    justify-content: space-between;
-    display: flex;
-}
-/* colori sfondi */
-.headerbottom{
-    background-color: #00008b;
-}
-.headertop{
-    background-color: #add8e6;
-    ;
-} 
-.border{
+
+.debug .headertop .riga > * {
     border: 1px dashed black;
+}
+.debug .headertop {
+    background-color: #add8e6;
+    height: 60px;
+    padding: 10px 0;
+}
+.debug .headertop .riga{
+    background-color: #daa520;
+
+}
+
+.debug .headerbottom{
+    padding:50px 0;
+    background-color:blue;
+    }
+.debug .headerbottom .jumbotron{
+    background-color:pink ;
+    border: 1px dashed black;
+    min-height: 500px;
+
+
 }
